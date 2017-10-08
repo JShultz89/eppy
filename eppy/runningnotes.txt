@@ -22,6 +22,10 @@ test on mac:
     - upgrade setuptools
     - failed
     - upgrade pip
+- ubuntu python3
+    - pip install https://github.com/santoshphilip/eppy/archive/i170_develop.zip
+    - failed - could not build pydot3k - but claims it was installed
+    - pip install pydot3k - same message
     
 
 
